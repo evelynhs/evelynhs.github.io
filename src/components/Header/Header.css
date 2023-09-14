@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.header-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: #222;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-text p {
+  font-size: 1.3rem;
+  color: #222;
+  padding: 0.5rem 0 2rem 0;
+}
+
+@media screen and (max-width: 555px) {
+  .header-text h1 {
+    padding: 10px, 20px;
+  }
+
+  .header-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+}
