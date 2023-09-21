@@ -8,13 +8,12 @@ function Projects () {
       <NavBar/>
       <Header
         cName="header"
-        headerImg="src/assets/limewash.jpeg"
+        headerImg="https://t3.ftcdn.net/jpg/05/00/51/30/360_F_500513060_UuVA3u7iqh3Mjvgq8NSrHfQeFGufJtjr.jpg"
         title="projects"
         text=""
       />
 
       <Content
-        headings="some projects i've done :)"
         cHeading="basic.ify"
         cText="web app that allows spotify users to see how unique their music taste is."
         hLink="https://paulresmer.github.io/basic.ify/"
