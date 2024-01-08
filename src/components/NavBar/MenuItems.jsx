@@ -16,7 +16,7 @@ export const MenuItems = [
   },
   {
     title : "CLOSET",
-    url : "/projects/closet",
+    url : "/closet",
     cName : "nav-links-hidden",
   },
   // {
