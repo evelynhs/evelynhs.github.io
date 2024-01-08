@@ -33,6 +33,13 @@ function Projects () {
         hLink="https://github.com/paulresmer/TagAlong/"
         imgs="hides"
       />
+
+      <Content
+        cHeading="closet wrapped"
+        cText="closet tracker to see how many times i've worn a certain piece of clothing"
+        hLink="/closet"
+        imgs="hides"
+      />
     </>
   )
 }

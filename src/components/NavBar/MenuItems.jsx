@@ -14,11 +14,11 @@ export const MenuItems = [
     url : "/contact",
     cName : "nav-links",
   },
-  // {
-  //   title : "WANT",
-  //   url : "/wishlist",
-  //   cName : "nav-links",
-  // },
+  {
+    title : "CLOSET",
+    url : "/projects/closet",
+    cName : "nav-links-hidden",
+  },
   // {
   //   title : "Hold",
   //   url : "/hold",

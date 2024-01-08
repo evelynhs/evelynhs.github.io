@@ -46,6 +46,10 @@
   transition: all 0.2s ease-in-out;
 }
 
+.nav-links-hidden {
+  display:none;
+}
+
 .menu-icons {
   display: none;
 }
@@ -90,6 +94,10 @@
   .nav-links:hover {
     background: #a0a0a0;
     transition: none;
+  }
+
+  .nav-links-hidden {
+    display:none;
   }
 
   .menu-icons {
