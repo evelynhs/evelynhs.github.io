@@ -1,0 +1,36 @@
+.aboutme {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.list {
+  text-align: left;
+  padding: 10px;
+  padding-top: 9rem;
+}
+
+.list h2 {
+  padding: 10px 0;
+}
+.list p {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.list a{
+  color: black;
+}
+
+@media screen and (max-width: 1094px) {
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+}

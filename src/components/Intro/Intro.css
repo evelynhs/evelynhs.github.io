@@ -1,0 +1,68 @@
+.loginpage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717;
+  position: fixed;
+  z-index: 10000;
+}
+
+.main_content {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 4%;
+  min-width: 450px;
+  min-height: 800px;
+  background-image: url("src/assets/empty_phone.png");
+  z-index: 9999;
+}
+
+.justbox {
+  background-position: center;
+  position: absolute;
+  margin-bottom: -15px;
+  min-width: 300px;
+  min-height: 640px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.status {
+  position: absolute;
+  max-width: 50px;
+  margin-left: 83px;
+  margin-top: -12px;
+}
+
+.time {
+  margin-top: 91px;
+  margin-left: -210px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.ctext {
+  width: 180px;
+  padding-top: 240px;
+  font-size: 20px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.getstarted {
+  margin-top: 240px;
+  border-radius: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: bold;
+  border: none;
+  background: none;
+}
+
+.getstarted:hover {
+  color: #646464;
+}
